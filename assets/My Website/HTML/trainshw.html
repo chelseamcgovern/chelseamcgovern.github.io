@@ -4,7 +4,23 @@
 	<meta charset="UTF-8">
 	<title>Train Timetable</title>
 
-	<!-- Latest compiled and minified CSS -->
+<!-- Firebase script -->
+	<script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDMj25Me5TYCYHFBp2LWyaWiUaS6anxb8s",
+    authDomain: "i-like-trains-6256c.firebaseapp.com",
+    databaseURL: "https://i-like-trains-6256c.firebaseio.com",
+    projectId: "i-like-trains-6256c",
+    storageBucket: "",
+    messagingSenderId: "1062957186490"
+  };
+  firebase.initializeApp(config);
+</script>
+	
+	
+<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
@@ -81,6 +97,6 @@
 
 
 
-<script src="assets/javascript/app.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
